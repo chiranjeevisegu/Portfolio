@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segu Venkata Chiranjeevi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Added AOS animation library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Added particles.js for background effects -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Added typed.js for text animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Particles background container -->
+    <div id="particles-js"></div>
+
+    <header>
+        <div class="container">
+            <nav id="navbar">
+                <div class="logo">
+                    <svg width="50" height="40" viewBox="0 0 50 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo-svg">
+                        <path d="M10,30 C10,30 15,10 25,10 C35,10 40,30 40,30" stroke="url(#logo-gradient)" stroke-width="5" stroke-linecap="round"/>
+                        <path d="M7,20 L43,20" stroke="url(#logo-gradient)" stroke-width="5" stroke-linecap="round"/>
+                        <text x="25" y="25" font-family="Arial" font-size="14" font-weight="bold" fill="url(#logo-gradient)" text-anchor="middle">SVC</text>
+                        <defs>
+                            <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#2563eb" />
+                                <stop offset="100%" stop-color="#3b82f6" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1>Segu Venkata Chiranjeevi</h1>
+                <h2>I'm a <span class="typed-text"></span></h2>
+                <p>B.Tech in Computer Science and Engineering - Artificial Intelligence</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/chiranjeevisegu" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/venkatachiranjeevi-segu-84290025b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:chiranjevisegu1@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="100">
+                    <p>I am a Computer Science and Engineering student specializing in Artificial Intelligence at Amrita Vishwa Vidyapeetham. With hands-on experience in deep learning, NLP, and AI-driven solutions, I am passionate about developing innovative solutions using cutting-edge technologies.</p>
+                    <p>My technical expertise includes Python, Machine Learning, Deep Learning, NLP, and web development. I have worked on various projects ranging from VR applications to NLP-based systems and Kubernetes cluster management.</p>
+                </div>
+                <div class="skills" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Skills</h3>
+                    <div class="skill-categories">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <ul>
+                                <li>C</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Libraries</h4>
+                            <ul>
+                                <li>NumPy</li>
+                                <li>Pandas</li>
+                                <li>Scikit-learn</li>
+                                <li>SciPy</li>
+                                <li>TensorFlow</li>
+                                <li>OpenCV</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web Development</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>MongoDB</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Office</h4>
+                            <ul>
+                                <li>MS-PowerPoint</li>
+                                <li>MS-Word</li>
+                                <li>MS-Excel</li>
+                                <li>Power BI</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Soft Skills</h4>
+                            <ul>
+                                <li>Leadership</li>
+                                <li>Event Management</li>
+                                <li>Communication</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <h3>B.Tech in Computer Science and Engineering - Artificial Intelligence</h3>
+                        <h4>Amrita Vishwa Vidyapeetham, Amaravati</h4>
+                        <p class="timeline-date">2022-Present</p>
+                        <p>GPA: 8.67</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-content">
+                        <h3>Class XII - Andhra Pradesh State Board</h3>
+                        <h4>Sri Chaitanya Junior College, Vijayawada</h4>
+                        <p class="timeline-date">2022</p>
+                        <p>MPC · Percentage: 93.1%</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-content">
+                        <h3>Class X - Andhra Pradesh State Board</h3>
+                        <h4>Sri Chaitanya School, Gudivada</h4>
+                        <p class="timeline-date">2020</p>
+                        <p>Percentage: 99.8%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <h3>Online Intern</h3>
+                        <h4>Infosys Springboard</h4>
+                        <p class="timeline-date">November 2024 - January 2025</p>
+                        <p>Developed Picaso Phrase, an AI-driven medical image captioning system using RNN LSTM.</p>
+                        <p>Gained hands-on experience in deep learning, NLP, and AI-driven solutions.</p>
+                        <p><strong>Key Technologies:</strong> Python, NLP, Machine Learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="projects-grid">
+                <!-- First row with the three specified projects -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-content">
+                        <h3>VR Health Viewer</h3>
+                        <p>A full-stack web application that enables immersive 3D visualization of medical brain models (.nii files) using both traditional and VR (stereoscopic) viewing modes.</p>
+                        <p>The application supports gesture-based interaction using MediaPipe and enables real-time processing through a Flask backend.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chiranjeevisegu/AquaRing" target="_blank" class="btn small-btn">GitHub</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>MediaPipe</span>
+                            <span>WebVR</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="150">
+                    <div class="project-content">
+                        <h3>NLP-Based Goal Model Extraction</h3>
+                        <p>Classified software requirements into functional, nonfunctional, and ambient types using NLP and transformers (BERT, RoBERTa, DistBERT, ELECTRA).</p>
+                        <p>Included preprocessing, class balancing, TF-IDF, and deep learning. Visualized results and performance evaluated.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chiranjeevisegu/Software_Engineering_Project" target="_blank" class="btn small-btn">GitHub</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>NLP</span>
+                            <span>BERT</span>
+                            <span>Python</span>
+                            <span>Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-content">
+                        <h3>Predicting Kubernetes Cluster Management Issues</h3>
+                        <p>Implemented and analyzed Kubernetes cluster deployment, service discovery, and networking issues.</p>
+                        <p>Used K-means for anomaly detection and BERT for log interpretation to enhance fault resolution. Optimized LSTM-based sequential analysis for network traffic pattern recognition.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chiranjeevisegu/Kubernetes" target="_blank" class="btn small-btn">GitHub</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Kubernetes</span>
+                            <span>K-means</span>
+                            <span>BERT</span>
+                            <span>LSTM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second row with other projects including the new ones -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="250">
+                    <div class="project-content">
+                        <h3>Weather Forecasting for New Delhi Using LSTM</h3>
+                        <p>Developed a time-series forecasting model to predict next-day temperatures in New Delhi using a stacked LSTM neural network trained on engineered weather features. Achieved a validation RMSE of 3.535°C and test RMSE of ~4.38°C.</p>
+                        <p>Built a preprocessing pipeline for time features, lag variables, rolling statistics, and seasonal encoding. Trained and evaluated the model using 5-fold walk-forward validation, optimizing performance with dropout and Adam optimizer.</p>
+                        <p>Forecasted next 5 days' temperatures and visualized results against actual data.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chiranjeevisegu/Machine_Learning_Projects/tree/main/weather_pred" target="_blank" class="btn small-btn">GitHub</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Pandas/NumPy</span>
+                            <span>Matplotlib/Seaborn</span>
+                            <span>Google Colab</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="project-content">
+                        <h3>Data Analytics & Visualization using Power BI</h3>
+                        <p>Completed hands-on business intelligence tasks as part of a virtual internship focused on data-driven decision making using Power BI.</p>
+                        <p>Developed interactive dashboards to visualize key metrics such as sales performance, customer segmentation, and product profitability. Cleaned, transformed, and modeled raw datasets using Power Query Editor and DAX for calculated columns and measures.</p>
+                        <p>Created compelling visual reports using bar charts, slicers, KPIs, and trendlines to support business insights.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chiranjeevisegu/POWER-BI" target="_blank" class="btn small-btn">GitHub</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Data Visualization</span>
+                            <span>Business Intelligence</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="350">
+                    <div class="project-content">
+                        <h3>Image and Video Steganography System</h3>
+                        <p>A dual-mode steganography system enabling secure text and file embedding within images and videos using LSB and DWT/DCT techniques. Supports reliable data extraction with minimal visual distortion and optional AES encryption for enhanced security.</p>
+                        <p>Image module uses LSB and DWT for secret message embedding in PNG, JPEG, and BMP formats. Video module extracts frames, embeds encrypted payloads, and reconstructs videos while preserving audio.</p>
+                        <p>Performance evaluated using PSNR and SSIM metrics.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chiranjeevisegu/Steganography" target="_blank" class="btn small-btn">GitHub</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PyWavelets</span>
+                            <span>Image Processing</span>
+                            <span>Encryption</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="project-content">
+                        <h3>Real-Time Fraud Detection System</h3>
+                        <p>A hybrid system designed to detect fraudulent bank transactions using both static deep learning models and real-time streaming analysis via Apache Spark MLlib. Focused on benchmarking model accuracy, GPU utilization, and latency.</p>
+                        <p>Implemented complete preprocessing pipeline including time-feature extraction, categorical encoding, and normalization. Compared LSTM-based models (Keras/PyTorch) with distributed PySpark ML models on cleaned transactional data.</p>
+                        <p>Generated probabilistic fraud predictions and evaluated using PSNR, SSIM, and precision-recall metrics.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chiranjeevisegu/Fraud_detection" target="_blank" class="btn small-btn">GitHub</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>PySpark</span>
+                            <span>Scikit-Learn</span>
+                            <span>Keras/PyTorch</span>
+                            <span>Matplotlib/Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="flip-left" data-aos-delay="450">
+                    <div class="project-content">
+                        <h3>NLP Text Classification Pipeline</h3>
+                        <p>A comprehensive NLP pipeline that classifies text using both traditional ML and transformer-based models. Includes preprocessing, vectorization, model training, and evaluation.</p>
+                        <p>Implemented TF-IDF, Word2Vec, and transformer embeddings (BERT, DistilBERT, DeBERTa). Trained Logistic Regression and Transformer models on labeled data.</p>
+                        <p>Evaluated models using classification reports, confusion matrix, and ROC curves. Supports real-time predictions on custom text inputs.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chiranjeevisegu/NLP" target="_blank" class="btn small-btn">GitHub</a>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Jupyter Notebook</span>
+                            <span>Scikit-learn</span>
+                            <span>Transformers (HuggingFace)</span>
+                            <span>Matplotlib/Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>Artificial Intelligence Primer Certification</h3>
+                    <p>Infosys Springboard</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="150">
+                    <h3>Principles of Generative AI Certification</h3>
+                    <p>Infosys Springboard</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Power BI Job Simulation</h3>
+                    <p>Forage</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="250">
+                    <h3>Quantum Enigmas</h3>
+                    <p>IBM Skill Build</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>The Rise of Multiagent Systems</h3>
+                    <p>IBM SkillBuild</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="350">
+                    <h3>RDBMS & SQL</h3>
+                    <p>CIR Amrita Vishwa Vidyapeetham</p>
+                </div>
+                <div class="cert-card" data-aos="zoom-in" data-aos-delay="400">
+                    <h3>Remote Sensing and Digital Image Analysis</h3>
+                    <p>IIRS & ISRO</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Publications</h2>
+            <div class="publication-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>Deep Learning-Based Prediction of Household Energy Consumption: An LSTM Approach with High Precision</h3>
+                <p>Accepted at <strong>IEEE Xplore</strong> on May 2025.</p>
+                <p><strong>DOI:</strong> <a href="https://doi.org/10.1109/AIDE54228.2025.10987497" target="_blank">https://doi.org/10.1109/AIDE54228.2025.10987497</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Extra Curricular Activities</h2>
+            <div class="activities-content">
+                <div class="activity-item" data-aos="fade-right" data-aos-delay="100">
+                    <h3>🏅 Track Winner – HackVyuha'25 (Emerging Tech) | Team Aqua Ring</h3>
+                    <p>Awarded 1st place in the Emerging Tech track at SRM University AP's flagship 24-hour hackathon, HackVyuha'25, among 5 competitive categories.</p>
+                    <p>Built an end-to-end tech solution as Team Aqua Ring alongside Akshar Samudrala, CH.VL Vardhan Ram, and NagaKumar, emphasizing innovation, simplicity, and impact.</p>
+                    <p>Led rapid ideation, full-stack development, and final pitch presentation under extreme time constraints.</p>
+                    <p>Strengthened skills in collaborative problem-solving, agile execution, and real-time adaptability.</p>
+                    <p><a href="#" target="_blank">📎 LinkedIn</a></p>
+                </div>
+                <div class="activity-item" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Multimedia Student Club (Drisya)</h3>
+                    <p>Organized and coordinated events at university, including Shivaratri, Talent Search, Janmashtami, Fit India, etc.</p>
+                </div>
+                <div class="activity-item" data-aos="fade-right" data-aos-delay="300">
+                    <h3>Campus Football Team</h3>
+                    <p>Participated in football tournaments (Udgam and Mahotsav), showcasing teamwork and leadership skills.</p>
+                    <p>Participated in the Acting Competition at BITS Hyderabad (Pearl 2024).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:chiranjevisegu1@gmail.com">chiranjevisegu1@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p><a href="tel:+919500874005">+91 9500874005</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p><a href="https://github.com/chiranjeevisegu" target="_blank">GitHub</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="https://www.linkedin.com/in/venkatachiranjeevi-segu-84290025b/" target="_blank">LinkedIn</a></p>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Segu Venkata Chiranjeevi. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Initialize AOS animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
