@@ -1,4 +1,3 @@
-
 # 🌟 Segu Venkata Chiranjeevi – Developer Portfolio Website
 
 This is a sleek, animated, and fully responsive **portfolio website** built using **HTML, CSS, and JavaScript** to showcase my profile, projects, skills, certifications, and more. Designed with interactive features like `particles.js`, `typed.js`, and `AOS` for an elegant user experience.
@@ -73,7 +72,7 @@ pt/
 
 ---
 
-## 📂 Key Sections
+## 📂 Sections
 
 - `Home`: Landing intro with animated titles and social links
 - `About`: Brief introduction and skillset breakdown
