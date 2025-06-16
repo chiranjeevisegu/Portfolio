@@ -2,7 +2,7 @@
 
 This is a sleek, animated, and fully responsive **portfolio website** built using **HTML, CSS, and JavaScript** to showcase my profile, projects, skills, certifications, and more. Designed with interactive features like `particles.js`, `typed.js`, and `AOS` for an elegant user experience.
 
-🔗 [Live Demo (Host on GitHub Pages / Netlify)](https://github.com/chiranjeevisegu/pt)
+🔗 [Live Demo (Host on GitHub Pages / Netlify)](https://68502fdb58cdc71409b967df--iridescent-entremet-a907f8.netlify.app/)
 
 ---
 
